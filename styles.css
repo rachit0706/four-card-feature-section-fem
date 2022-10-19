@@ -21,6 +21,7 @@ html {
 body {
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
+    background-color: var(--very-light-gray);
 }
 
 .flex-col {
@@ -32,7 +33,7 @@ body {
 
 header {
     text-align: center;
-    margin: .7rem auto;
+    margin: 1.5rem auto;
     padding: 1rem;
 }
 
@@ -78,7 +79,7 @@ header > h1 {
     align-items: flex-start;
     justify-content: space-evenly;
     gap: .5rem;
-    box-shadow: 0 .5rem 1rem var(--grayish-blue);
+    box-shadow: 0 .3rem .6rem var(--grayish-blue);
     transition: all 0.5s;
 }
 
