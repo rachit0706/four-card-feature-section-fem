@@ -37,6 +37,11 @@ header {
     padding: 1rem;
 }
 
+header > h1 {
+    color: var(--very-dark-blue);
+    font-weight: 600;
+    font-size: 1.8rem;
+}
 .muted-heading {
     display: block;
     font-size: 1.7rem;
@@ -44,11 +49,6 @@ header {
     color: var(--grayish-blue);
 }
 
-header > h1 {
-    color: var(--very-dark-blue);
-    font-weight: 600;
-    font-size: 1.8rem;
-}
 
 .header-text {
     color: var(--grayish-blue);
